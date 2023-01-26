@@ -58,6 +58,7 @@ if __name__ == "__main__":
     notification_sender = NotificationManager()
     if flight_sheety.get_data():    # check if any iataCode is missing.
         update_iata_codes()         # update every iata if single one doesn't exist.
+    check_flights()
 
 
 
